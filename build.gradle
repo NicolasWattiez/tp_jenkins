@@ -9,5 +9,5 @@ task test(type:Exec) {
   //println 'Executing tests'
   executable 'sh'
   args '-c', "python3 -m pytest \
-    '/home/gradle/test-app//src/test.py'"
+    'src/test.py'"
 }
